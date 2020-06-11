@@ -22,8 +22,7 @@ services:
 
     web2:
         image: "xwiki:lts-postgres-tomcat"
-        container_name:
-            - xw-002
+        container_name: xw-002
         links:
             - db
         environment:
