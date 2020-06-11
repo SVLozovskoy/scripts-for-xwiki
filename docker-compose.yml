@@ -65,5 +65,5 @@ services:
         networks:
             - bridge
 volumes:
-    postgres-data:{}
-    xwiki-data:{}
+    postgres-data: {}
+    xwiki-data: {}
