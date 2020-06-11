@@ -6,7 +6,7 @@ def pkg_install():
 
 def ssl_generate():
     os.system('mkdir cert')
-    os.system('sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./cert/apache-selfsigned.key -out cert/apache-selfsigned.crt -subj "/C=US/ST=Ohio/L=Columbus/O=Widgets Inc/OU=Some Unit"')
+    os.system('sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./cert/nginx.key -out cert/nginx.crt -subj "/C=US/ST=Ohio/L=Columbus/O=Widgets Inc/OU=Some Unit"')
 
 
 def change_right():
